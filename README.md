@@ -12,8 +12,6 @@ sudo apt install libimage-exiftool-perl
 ## Usage
 To create a default invoice:
 ```
-git clone https://github.com/MISELLO/genFact/
-cd genFact
 go run genFact.go
 ```
 Or use a file input:
