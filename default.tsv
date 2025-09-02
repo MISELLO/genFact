@@ -1,0 +1,17 @@
+# This line is a comment, next line is empty
+
+author	[Your Name Here]
+outputFileName	output/default.pdf
+staticFile	static_data/static_default.dat
+invoiceNumber	2025-01
+date	01/01/2025
+# The title of the document can have this format, using this 2 tags []
+# That will be replaced for their current value
+#title	Invoice [date] [invNum]
+title	Default Invoice
+clientNumber	100
+coin	€
+coinFront	False
+taxes	10
+listDetail	Default description/concept	-	9,99 €	999
+listDetail	Multi	Line	Description	Example	1	1,25 €	125
