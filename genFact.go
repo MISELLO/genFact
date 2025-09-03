@@ -34,7 +34,7 @@ type tListLine struct {
 // Default values
 var title string           = "Default Invoice"
 var author string          = "[Your Name Here]"
-var version string         = "0.9.7"
+var version string         = "0.9.8"
 var creator string         = "genFact v" + version
 var producer string        = "signintech/gopdf"
 var outputFileName string  = "output/default.pdf"
@@ -1325,7 +1325,7 @@ func main() {
 
 	// Save and exit
 	fmt.Println()
-	fmt.Println("Remember to execute this commands:")
+	fmt.Println("Remember to execute these commands:")
 	fmt.Printf("exiftool -Title=\"%s\" -Author=\"%s\" -Creator=\"%s\" -Producer=\"%s\" -overwrite_original %s\n",
 	 title, author, creator, producer, outputFileName)
 	fmt.Println("pdfinfo " + outputFileName)
